@@ -1,0 +1,1274 @@
+@font-face {
+    shrift oilasi: "fre";
+    src: url("../fonts/Fredoka-Medium.ttf");
+  }
+  @font-face {
+    shrift oilasi: "Roboto";
+    src: url("../fonts/Roboto-Regular.ttf");
+  }
+  @font-face {
+    font-family: "hind";
+    src: url("../fonts/Roboto-Regular.ttf");
+  }
+  * {
+    chegara: 0;
+    to'ldirish: 0;
+    quti o'lchami: chegara qutisi;
+  }
+  
+  .pushti {
+    fon: #F2CEDA;
+  }
+  
+  .idish {
+    maksimal kenglik: 1600px;
+    to'ldirish: 0px 150px;
+    chegara: 0px avtomatik;
+    toshib ketish: yashirin;
+  }
+  
+  .sarlavha {
+    to'ldirish tepasi: 40px;
+    to'ldirish pastki: 135px;
+    displey: moslashuvchan;
+    align-elementlar: markaz;
+    asoslash-tarkib: bo'sh joy;
+  }
+  
+  .header_item {
+    displey: moslashuvchan;
+    align-elementlar: markaz;
+    bo'shliq: 40px;
+  }
+  
+  .header_logo {
+    to'ldirish-o'ng: 44px;
+  }
+  
+  .header1 {
+    displey: moslashuvchan;
+  }
+  
+  .img_header_item100 {
+    margin-top: -100px;
+    chap chekka: -80px;
+  }
+  
+  .btn {
+    kengligi: 165px;
+    balandligi: 50px;
+    chegara radiusi: 5px;
+    shrift og'irligi: 800;
+    font-family: "hind";
+    rang: oq;
+    chegara: 2px qattiq shaffof;
+    fon rangi: # D23166;
+    o'tish: 0,5 s;
+    kursor: ko'rsatgich;
+  }
+  .btn: hover {
+    chegara: 2px qattiq # D23166;
+    rang: #D23166;
+    fon rangi: shaffof;
+    o'tish: 0,5 s;
+  }
+  
+  .item_list {
+    ro'yxat uslubi turi: yo'q;
+  }
+  
+  .element_link {
+    shrift oilasi: "Roboto";
+    shrift o'lchami: 14px;
+    shrift og'irligi: 400;
+    chiziq balandligi: 16px;
+    harflar oralig'i: 0em;
+    matn bezatish: yo'q;
+    matnni tekislash: chapga;
+    rang: qora;
+    shaffoflik: 0,6px;
+    o'tish: 0,5 s;
+  }
+  
+  .item_link: suring {
+    rang: #D23166;
+    o'tish: 0,5 s;
+  }
+  
+  .p_element {
+    shrift oilasi: "Roboto";
+    shrift o'lchami: 14px;
+    shrift og'irligi: 500;
+    chiziq balandligi: 16px;
+    harflar oralig'i: 0,1em;
+    matnni tekislash: chapga;
+  }
+  
+  .header_item1 {
+    displey: moslashuvchan;
+    moslashuvchan yo'nalish: ustun;
+    bo'shliq: 5px;
+  }
+  
+  .p_item1 {
+    kengligi: 85%;
+    shrift oilasi: "fre";
+    shrift o'lchami: 55px;
+    shrift og'irligi: 400;
+    chiziq balandligi: 69px;
+    harflar oralig'i: 0em;
+    matnni tekislash: chapga;
+    rang: #0F0101;
+    pastki qism: 30px;
+    z-indeks: 1;
+  }
+  
+  .p_list {
+    kengligi: 75%;
+    font-family: "hind";
+    shrift o'lchami: 18px;
+    shrift og'irligi: 400;
+    chiziq balandligi: 27px;
+    harflar oralig'i: 0em;
+    matnni tekislash: chapga;
+    pastki qism: 30px;
+  }
+  
+  .img_header_item1 {
+    kengligi: 250%;
+    to'ldirish: 0px;
+    chap chekka: -250px;
+    tepalik chegarasi: -80px;
+  }
+  
+  @media faqat ekran va (maksimal kenglik: 1270px) {
+    .p_item1 {
+      kengligi: 80%;
+    }
+    .p_list {
+      kengligi: 80%;
+    }
+  }
+  @media faqat ekran va (maksimal kenglik: 1130px) {
+    .img_header_item1 {
+      kengligi: 200%;
+      to'ldirish: 0px;
+      chap chekka: -200px;
+      chekka tepa: -30px;
+    }
+  }
+  @media faqat ekran va (maksimal kenglik: 1150px) {
+    .bheader_item1tn {
+      to'ldirish-pastki: 150px;
+    }
+    .img_header_item1 {
+      chap chekka: -350px;
+      kengligi: 350%;
+    }
+    .p_list {
+      kengligi: 70%;
+    }
+    .p_item1 {
+      kengligi: 70%;
+    }
+  }
+  @media faqat ekran va (maksimal kenglik: 1060px) {
+    .sarlavha {
+      to'ldirish ustki qismi: 20px;
+      to'ldirish pastki: 135px;
+    }
+    .idish {
+      to'ldirish: 0px 50px;
+    }
+    .img_header_item1 {
+      chap chekka: -380px;
+      kengligi: 300%;
+    }
+  }
+  @media faqat ekran va (maksimal kenglik: 1000px) {
+    .idish {
+      to'ldirish: 0px 50px;
+    }
+    .p_list {
+      kengligi: 60%;
+    }
+    .p_item1 {
+      kengligi: 60%;
+    }
+    .img_header_item1 {
+      chap chekka: -380px;
+      kengligi: 300%;
+    }
+    .img_header_item100 {
+      kengligi: 120%;
+    }
+  }
+  @media faqat ekran va (maksimal kenglik: 890px) {
+    .idish {
+      to'ldirish: 0px 50px;
+    }
+    .p_list {
+      kengligi: 60%;
+    }
+    .p_item1 {
+      kengligi: 60%;
+    }
+    .img_header_item1 {
+      chap chekka: -380px;
+      kengligi: 380%;
+    }
+  }
+  @media faqat ekran va (maksimal kenglik: 850px) {
+    .header_item {
+      ko'rsatish: yo'q;
+    }
+    .img_header_item100 {
+      kengligi: 140%;
+    }
+  }
+  @media faqat ekran va (maksimal kenglik: 800px) {
+    .header1 {
+      displey: moslashuvchan;
+      moslashuvchan yo'nalish: ustun-teskari;
+    }
+    .p_item1 {
+      matnni tekislash: markaz;
+    }
+    .p_list {
+      matnni tekislash: markaz;
+    }
+    .img_header_item1 {
+      displey: moslashuvchan;
+      align-elementlar: markaz;
+      asoslash-tarkib: markaz;
+      chap chekka: 0px;
+      kengligi: 200%;
+    }
+    .header_item1 {
+      displey: moslashuvchan;
+      align-elementlar: markaz;
+      matnni tekislash: markaz;
+      asoslash-tarkib: markaz;
+    }
+    .p_list {
+      kengligi: 110%;
+    }
+    .p_item1 {
+      kengligi: 110%;
+    }
+    .header_item1 {
+      to'ldirish-pastki: 100px;
+    }
+  }
+  @media faqat ekran va (maksimal kenglik: 640px) {
+    .p_item1 {
+      shrift oilasi: "fre";
+      shrift o'lchami: 45px;
+      shrift og'irligi: 400;
+      chiziq balandligi: 45px;
+      harflar oralig'i: 0em;
+      matnni tekislash: chapga;
+      rang: #0F0101;
+      pastki qism: 30px;
+      matnni tekislash: markaz;
+      z-indeks: 1;
+    }
+  }
+  @media faqat ekran va (maksimal kenglik: 500px) {
+    .p_list {
+      kengligi: 120%;
+      shrift o'lchami: 16px;
+      chiziq balandligi: 20px;
+    }
+    .p_item1 {
+      kengligi: 120%;
+      shrift o'lchami: 40px;
+      chiziq balandligi: 50px;
+    }
+  }
+  @media faqat ekran va (maksimal kenglik: 455px) {
+    .p_item1 {
+      shrift o'lchami: 30px;
+      chiziq balandligi: 40px;
+    }
+    .p_list {
+      shrift o'lchami: 12px;
+    }
+  }
+  @media faqat ekran va (maksimal kenglik: 400px) {
+    .p_list {
+      kengligi: 120%;
+      shrift o'lchami: 14px;
+      chiziq balandligi: 18px;
+    }
+    .p_item1 {
+      kengligi: 120%;
+      shrift o'lchami: 25px;
+      chiziq balandligi: 30px;
+    }
+  }
+  @media faqat ekran va (maksimal kenglik: 320px) {
+    .p_item1 {
+      shrift o'lchami: 24px;
+      chiziq balandligi: 30px;
+    }
+    .p_list {
+      shrift o'lchami: 12px;
+    }
+  }
+  .qahramon {
+    displey: panjara;
+    grid-shablon-ustunlari: 1fr 1fr 1fr 1fr;
+    grid-shablon qatorlari: avtomatik;
+    panjara oralig'i: 40px;
+    asoslash-tarkib: bo'sh joy;
+    to'ldiruvchi ustki: 100px;
+    to'ldirish-pastki: 100px;
+  }
+  
+  .hero1_element {
+    kursor: ko'rsatgich;
+    chegara: 1px qattiq rgb(235, 235, 235);
+    displey: moslashuvchan;
+    moslashuvchan yo'nalish: ustun;
+    align-elementlar: markaz;
+    asoslash-tarkib: markaz;
+    matnni tekislash: markaz;
+    chegara radiusi: 7px;
+    fon: #FFFFFF;
+    o'tish: 0,5 s;
+  }
+  .hero1_item: suring {
+    o'tish: 0,3 s;
+    quti soyasi: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  }
+  
+  .p_item11 {
+    shrift oilasi: "Roboto";
+    shrift o'lchami: 57px;
+    shrift og'irligi: 800;
+    chiziq balandligi: 69px;
+    harflar oralig'i: 0em;
+    matnni tekislash: chapga;
+    rang: #0F0101;
+    pastki qism: 30px;
+    z-indeks: 1;
+  }
+  
+  .p_list {
+    font-family: "hind";
+    shrift o'lchami: 18px;
+    shrift og'irligi: 400;
+    chiziq balandligi: 27px;
+    harflar oralig'i: 0em;
+    matnni tekislash: chapga;
+    pastki qism: 30px;
+  }
+  
+  .btn1 {
+    kengligi: 165px;
+    balandligi: 50px;
+    chegara radiusi: 5px;
+    shrift og'irligi: 300;
+    shrift oilasi: "Roboto";
+    shrift o'lchami: 16px;
+    rang: oq;
+    chegara: 2px qattiq shaffof;
+    fon rangi: # D23166;
+    o'tish: 0,5 s;
+    kursor: ko'rsatgich;
+  }
+  .btn1: suring {
+    chegara: 2px qattiq # D23166;
+    rang: #D23166;
+    fon rangi: shaffof;
+    o'tish: 0,5 s;
+  }
+  
+  .header2 {
+    to'ldirish: 150px 0px;
+    displey: moslashuvchan;
+  }
+  
+  .img_item_hero {
+    to'ldirish ustki qismi: 33px;
+    kengligi: 60px;
+    to'ldirish-pastki: 25px;
+  }
+  
+  .img1_item_hero {
+    to'ldirish ustki qismi: 33px;
+    kengligi: 17%;
+    to'ldirish-pastki: 25px;
+  }
+  
+  .p_hero_item {
+    font-family: "hind";
+    shrift o'lchami: 20px;
+    shrift og'irligi: 600;
+    chiziq balandligi: 28px;
+    harflar oralig'i: 0em;
+    matnni tekislash: chapga;
+  }
+  
+  .p_hero_item1 {
+    font-family: "hind";
+    shrift o'lchami: 14px;
+    shrift og'irligi: 400;
+    chiziq balandligi: 19px;
+    harflar oralig'i: 0em;
+    matnni tekislash: markaz;
+    rang: #000000;
+    to'ldirish: 10px;
+    shaffoflik: 0,8;
+    pastki qism: 30px;
+  }
+  
+  @media faqat ekran va (maksimal kenglik: 1250px) {
+    .img_header_item12 {
+      kengligi: 90%;
+    }
+  }
+  @media ekrani va (maksimal kenglik: 1080px) {
+    .idish {
+      to'ldirish: 0px 50px;
+    }
+    .img_header_item12 {
+      kengligi: 100%;
+    }
+  }
+  @media faqat ekran va (maksimal kenglik: 800px) {
+    .header2 {
+      displey: moslashuvchan;
+      moslashuvchan yo'nalish: ustun-teskari;
+    }
+  }
+  @media ekrani va (maksimal kenglik: 900px) {
+    .qahramon {
+      displey: panjara;
+      grid-shablon-ustunlari: 1fr 1fr;
+      grid-shablon qatorlari: avtomatik avtomatik;
+      panjara oralig'i: 40px;
+      asoslash-tarkib: bo'sh joy;
+      to'ldiruvchi ustki: 60px;
+      to'ldirish-pastki: 60px;
+    }
+    .img_header_item100 {
+      displey: moslashuvchan;
+      align-elementlar: markaz;
+      asoslash-tarkib: markaz;
+    }
+  }
+  @media ekrani va (maksimal kenglik: 640px) {
+    .p_item11 {
+      shrift oilasi: "Roboto";
+      shrift o'lchami: 45px;
+      shrift og'irligi: 800;
+      chiziq balandligi: 69px;
+      harflar oralig'i: 0em;
+      matnni tekislash: chapga;
+      rang: #0F0101;
+      pastki qism: 30px;
+      z-indeks: 1;
+    }
+    .p_list {
+      shrift o'lchami: 14px;
+      chiziq balandligi: 25px;
+    }
+  }
+  @media ekrani va (maksimal kenglik: 525px) {
+    .p_item11 {
+      shrift oilasi: "Roboto";
+      shrift o'lchami: 40px;
+      shrift og'irligi: 800;
+      chiziq balandligi: 69px;
+    }
+    .p_list {
+      matnni tekislash: markaz;
+      shrift o'lchami: 14px;
+      chiziq balandligi: 20px;
+    }
+  }
+  @media ekrani va (maksimal kenglik: 500px) {
+    .qahramon {
+      panjara oralig'i: 20px;
+    }
+  }
+  @media ekrani va (maksimal kenglik: 525px) {
+    .p_item11 {
+      shrift oilasi: "Roboto";
+      shrift o'lchami: 35px;
+      shrift og'irligi: 800;
+      chiziq balandligi: 69px;
+      matnni tekislash: markaz;
+      to'ldirish-pastki: 10px;
+    }
+    .p_list {
+      shrift o'lchami: 14px;
+      chiziq balandligi: 20px;
+    }
+  }
+  @media ekrani va (maksimal kenglik: 450px) {
+    .qahramon {
+      displey: panjara;
+      grid-shablon-ustunlari: 1fr;
+      grid-shablon-satrlar: avtomatik avtomatik avtomatik avtomatik;
+      panjara oralig'i: 40px;
+      asoslash-tarkib: bo'sh joy;
+      to'ldiruvchi ustki: 60px;
+      to'ldirish-pastki: 60px;
+    }
+  }
+  @media ekrani va (maksimal kenglik: 525px) {
+    .p_item11 {
+      shrift oilasi: "Roboto";
+      shrift o'lchami: 25px;
+      shrift og'irligi: 800;
+      chiziq balandligi: 69px;
+      matnni tekislash: markaz;
+      to'ldirish-pastki: 10px;
+    }
+    .p_list {
+      shrift o'lchami: 14px;
+      chiziq balandligi: 20px;
+    }
+  }
+  @media ekrani va (maksimal kenglik: 340px) {
+    .p_item11 {
+      shrift oilasi: "Roboto";
+      shrift o'lchami: 20px;
+      shrift og'irligi: 800;
+      chiziq balandligi: 69px;
+      matnni tekislash: markaz;
+      padding-pastki: 0px;
+    }
+    .p_list {
+      shrift o'lchami: 14px;
+      chiziq balandligi: 20px;
+    }
+  }
+  .Bo'lim {
+    displey: moslashuvchan;
+    moslashuvchan yo'nalish: ustun;
+    to'ldiruvchi ustki: 137px;
+    bo'shliq: 50px;
+  }
+  
+  .p_item_section {
+    font-family: "hind";
+    shrift o'lchami: 44px;
+    shrift og'irligi: 600;
+    chiziq balandligi: 61px;
+    harflar oralig'i: 0em;
+    matnni tekislash: chapga;
+    rang: #150101;
+    matnni tekislash: markaz;
+  }
+  
+  .section_item1 {
+    displey: moslashuvchan;
+    flex-o'rash: o'rash;
+    asoslash-tarkib: bo'sh joy;
+    bo'shliq: 40px;
+  }
+  
+  .cards1 {
+    displey: moslashuvchan;
+    bo'shliq: 20px;
+  }
+  
+  .cars1 {
+    pastki qism: 50px;
+  }
+  
+  .card_text1 {
+    to'ldiruvchi ustki: 60px;
+    font-family: "hind";
+    shrift o'lchami: 26px;
+    shrift og'irligi: 800;
+    chiziq balandligi: 36px;
+    harflar oralig'i: 0em;
+    matnni tekislash: chapga;
+    to'ldirish pastki: 15px;
+  }
+  
+  .card_text500 {
+    displey: moslashuvchan;
+    bo'shliq: 5px;
+  }
+  
+  .card_text503 {
+    displey: moslashuvchan;
+    bo'shliq: 5px;
+    asoslash-tarkib: oxiri;
+  }
+  
+  .card_text502 {
+    matnni tekislash: tugatish;
+  }
+  
+  .card_text501 {
+    font-family: "hind";
+    shrift o'lchami: 26px;
+    shrift og'irligi: 900;
+    chiziq balandligi: 36px;
+    harflar oralig'i: 0em;
+  }
+  
+  .card_text502 {
+    font-family: "hind";
+    shrift o'lchami: 20px;
+    shrift og'irligi: 500;
+    chiziq balandligi: 36px;
+    harflar oralig'i: 0em;
+    matnni tekislash: chapga;
+    shaffoflik: 0,6;
+    to'ldirish-pastki: 16px;
+  }
+  
+  .kartalar {
+    displey: moslashuvchan;
+  }
+  
+  .car_texts {
+    shrift oilasi: "Roboto";
+    shrift o'lchami: 24px;
+    shrift og'irligi: 600;
+    chiziq balandligi: 28px;
+    harflar oralig'i: 0em;
+    matnni tekislash: chapga;
+  }
+  
+  .cards_p {
+    shrift oilasi: "Roboto";
+    shrift o'lchami: 12px;
+    shrift og'irligi: 600;
+    chiziq balandligi: 14px;
+    harflar oralig'i: 0em;
+    shaffoflik: 0,6;
+    pastki qism: 50px;
+  }
+  
+  .card_div {
+    displey: moslashuvchan;
+    moslashuvchan yo'nalish: ustun;
+  }
+  
+  .car1 {
+    displey: moslashuvchan;
+    align-elementlar: markaz;
+    bo'shliq: 10px;
+  }
+  
+  .ddd {
+    displey: moslashuvchan;
+    bo'shliq: 25px;
+    align-elementlar: markaz;
+  }
+  
+  .car2 {
+    to'ldiruvchi ustki: 60px;
+  }
+  
+  .card_img_p1_22 {
+    kengligi: 35px;
+    balandligi: 35px;
+  }
+  
+  .p_1p {
+    kengligi: 70%;
+    shrift oilasi: "Roboto";
+    shrift o'lchami: 16px;
+    shrift og'irligi: 400;
+    chiziq balandligi: 24px;
+    harflar oralig'i: 0em;
+    matnni tekislash: chapga;
+    shaffoflik: 0,8;
+    to'ldirish-pastki: 40px;
+  }
+  
+  .card_text17 {
+    to'ldiruvchi ustki: 60px;
+    font-family: "hind";
+    shrift o'lchami: 26px;
+    shrift og'irligi: 800;
+    chiziq balandligi: 36px;
+    harflar oralig'i: 0em;
+    matnni tekislash: chapga;
+  }
+  
+  .karta {
+    matnni tekislash: tugatish;
+  }
+  
+  .btn {
+    kengligi: 165px;
+    balandligi: 50px;
+    chegara radiusi: 5px;
+    shrift og'irligi: 800;
+    font-family: "hind";
+    rang: oq;
+    chegara: 2px qattiq shaffof;
+    fon rangi: # D23166;
+    o'tish: 0,5 s;
+    kursor: ko'rsatgich;
+  }
+  .btn: hover {
+    chegara: 2px qattiq # D23166;
+    rang: #D23166;
+    fon rangi: shaffof;
+    o'tish: 0,5 s;
+  }
+  
+  .card_text3 {
+    shrift oilasi: "Roboto";
+    shrift o'lchami: 16px;
+    shrift og'irligi: 400;
+    chiziq balandligi: 24px;
+    harflar oralig'i: 0em;
+    shaffoflik: 0,8;
+    to'ldirish-pastki: 28px;
+  }
+  
+  .card_text2 {
+    shrift oilasi: "Roboto";
+    shrift o'lchami: 16px;
+    shrift og'irligi: 400;
+    chiziq balandligi: 24px;
+    harflar oralig'i: 0em;
+    shaffoflik: 0,8;
+    to'ldirish-pastki: 28px;
+  }
+  
+  .karta_matn {
+    to'ldirish ustki qismi: 70px;
+    font-family: "hind";
+    shrift o'lchami: 26px;
+    shrift og'irligi: 700;
+    chiziq balandligi: 36px;
+    harflar oralig'i: 0em;
+    matnni tekislash: chapga;
+    to'ldirish pastki: 15px;
+    matnni tekislash: tugatish;
+    asoslash-tarkib: oxiri;
+  }
+  
+  .item_list1 {
+    ro'yxat uslubi turi: yo'q;
+  }
+  
+  .item_link1 {
+    shrift oilasi: "Roboto";
+    shrift o'lchami: 20px;
+    shrift og'irligi: 500;
+    chiziq balandligi: 23px;
+    harflar oralig'i: 0em;
+    matn bezatish: yo'q;
+    matnni tekislash: chapga;
+    rang: qora;
+    shaffoflik: 0,6;
+    o'tish: 0,5 s;
+  }
+  
+  .item_link1: suring {
+    shaffoflik: 1;
+    rang: qora;
+    chegara-pastki: 3px qattiq # D64374;
+    o'tish: 0,1s;
+  }
+  
+  .item_link2 {
+    shrift oilasi: "Roboto";
+    shrift o'lchami: 20px;
+    shrift og'irligi: 500;
+    chiziq balandligi: 23px;
+    harflar oralig'i: 0em;
+    matn bezatish: yo'q;
+    matnni tekislash: chapga;
+    rang: qora;
+    shaffoflik: 0,6;
+    o'tish: 0,5 s;
+  }
+  
+  .item_link2: suring {
+    shaffoflik: 1;
+    rang: qora;
+    chegara-pastki: 3px qattiq # D64374;
+    o'tish: 0,1s;
+  }
+  
+  .cards1 {
+    bo'shliq: 50px;
+  }
+  
+  .card_text221 {
+    shrift oilasi: "Roboto";
+    shrift o'lchami: 16px;
+    shrift og'irligi: 400;
+    chiziq balandligi: 24px;
+    harflar oralig'i: 0em;
+    shaffoflik: 0,8;
+    to'ldirish-pastki: 28px;
+  }
+  
+  .car2 {
+    to'ldirish pastki: 144px;
+  }
+  
+  .card78 {
+    matnni tekislash: tugatish;
+  }
+  
+  .ulugbek {
+    displey: moslashuvchan;
+    bo'shliq: 100px;
+  }
+  
+  .ulugbek_img {
+    to'ldirish ustki qismi: 55px;
+  }
+  
+  .ulugbek_item1 {
+    to'ldirish tepasi: 86px;
+    displey: moslashuvchan;
+    moslashuvchan yo'nalish: ustun;
+    bo'shliq: 20px;
+  }
+  
+  .p_ulugbek {
+    shrift oilasi: "Roboto";
+    shrift o'lchami: 44px;
+    shrift og'irligi: 700;
+    chiziq balandligi: 52px;
+    harflar oralig'i: 0em;
+    matnni tekislash: chapga;
+  }
+  
+  .div_img {
+    matn bezatish: yo'q;
+  }
+  
+  .ulugbek_p {
+    kengligi: 90%;
+    shrift oilasi: "Roboto";
+    shrift o'lchami: 18px;
+    shrift og'irligi: 400;
+    chiziq balandligi: 21px;
+    harflar oralig'i: 0,01em;
+    matnni tekislash: chapga;
+    shaffoflik: 0,7;
+  }
+  
+  .ulugbek_div {
+    displey: moslashuvchan;
+    moslashuvchan yo'nalish: ustun;
+    bo'shliq: 15px;
+    to'ldirish-pastki: 25px;
+  }
+  
+  .ulugbek_div1 {
+    displey: moslashuvchan;
+    bo'shliq: 10px;
+  }
+  
+  .ulugbek_p_div {
+    shrift oilasi: "Roboto";
+    shrift o'lchami: 22px;
+    shrift og'irligi: 500;
+    chiziq balandligi: 26px;
+    harflar oralig'i: 0em;
+    matnni tekislash: chapga;
+    align-elementlar: markaz;
+  }
+  
+  .ulugbek_div_img3 {
+    chap chekka: -14px;
+  }
+  
+  .ulugbek_div2 {
+    displey: moslashuvchan;
+    align-elementlar: markaz;
+    bo'shliq: 7px;
+    matn bezatish: yo'q;
+    ro'yxat uslubi: yo'q;
+  }
+  
+  .ulugbek_p_div {
+    kursor: ko'rsatgich;
+  }
+  
+  .asilbek {
+    to'ldirish ustki qismi: 130px;
+    pastki qism: 70px;
+    displey: moslashuvchan;
+    moslashuvchan yo'nalish: ustun;
+    bo'shliq: 36px;
+  }
+  
+  .p_asilbek {
+    shrift oilasi: "Roboto";
+    shrift o'lchami: 44px;
+    shrift og'irligi: 800;
+    chiziq balandligi: 52px;
+    harflar oralig'i: 0em;
+    matnni tekislash: markaz;
+  }
+  
+  .shakl {
+    chegara radiusi: 5px;
+    displey: moslashuvchan;
+    moslashuvchan yo'nalish: ustun;
+    bo'shliq: 37px;
+  }
+  
+  .form1 {
+    displey: moslashuvchan;
+    asoslash-tarkib: markaz;
+    bo'shliq: 30px;
+  }
+  
+  .tel {
+    to'ldirish: 20px 100px 20px 20px;
+    shrift oilasi: "Roboto";
+    shrift o'lchami: 14px;
+    shrift og'irligi: 400;
+    chiziq balandligi: 16px;
+    harflar oralig'i: 0em;
+    matnni tekislash: chapga;
+    chegara: 1px qattiq #FFA3A3;
+  }
+  
+  .tel1 {
+    to'ldirish: 20px 100px 20px 20px;
+    shrift oilasi: "Roboto";
+    shrift o'lchami: 14px;
+    shrift og'irligi: 400;
+    chiziq balandligi: 16px;
+    harflar oralig'i: 0em;
+    matnni tekislash: chapga;
+    chegara: 1px qattiq #FFA3A3;
+  }
+  
+  .email {
+    to'ldirish: 20px 250px 20px 20px;
+    chegara: 1px qattiq #FFA3A3;
+  }
+  
+  .form12 {
+    displey: moslashuvchan;
+    align-elementlar: markaz;
+    asoslash-tarkib: markaz;
+  }
+  
+  .submit {
+    to'ldirish: 17px 25px;
+    chegara: 1px qattiq shaffof;
+    chegara radiusi: 5px;
+    fon: #D64374;
+    matnni tekislash: markaz;
+    shrift oilasi: "Roboto";
+    shrift o'lchami: 20px;
+    shrift og'irligi: 500;
+    chiziq balandligi: 23px;
+    rang: oq;
+    chegara: 1px qattiq #FFA3A3;
+  }
+  
+  @media faqat ekran va (maksimal kenglik: 1200px) {
+    .idish {
+      to'ldirish: 0 50px;
+    }
+  }
+  @media faqat ekran va (maksimal kenglik: 950px) {
+    .cards1 {
+      displey: moslashuvchan;
+      moslashuvchan yo'nalish: ustun;
+      matnni tekislash: markaz;
+      align-elementlar: markaz;
+      asoslash-tarkib: markaz;
+    }
+    .card_text1 {
+      matnni tekislash: markaz;
+    }
+    .karta_matn {
+      chap chekka: 0px;
+      matnni tekislash: markaz;
+    }
+    .card_text503 {
+      chap chekka: 0px;
+      matnni tekislash: markaz;
+      asoslash-tarkib: markaz;
+    }
+    .card_text500 {
+      matnni tekislash: markaz;
+      asoslash-tarkib: markaz;
+    }
+    .card_text17 {
+      matnni tekislash: markaz;
+    }
+    .kartalar {
+      moslashuvchan yo'nalish: ustun-teskari;
+      align-elementlar: markaz;
+      matnni tekislash: markaz;
+      asoslash-tarkib: markaz;
+    }
+    .card78 {
+      matnni tekislash: markaz;
+    }
+    .car2 {
+      displey: moslashuvchan;
+      moslashuvchan yo'nalish: ustun;
+      matnni tekislash: markaz;
+      align-elementlar: markaz;
+      asoslash-tarkib: markaz;
+    }
+    .p_1p {
+      matnni tekislash: markaz;
+    }
+  }
+  @media faqat ekran va (maksimal kenglik: 820px) {
+    .ulugbek_item {
+      ko'rsatish: yo'q;
+    }
+    .ulugbek_item1 {
+      displey: moslashuvchan;
+      moslashuvchan yo'nalish: ustun;
+      align-elementlar: markaz;
+      matnni tekislash: markaz;
+      asoslash-tarkib: markaz;
+    }
+    .p_ulugbek {
+      shrift oilasi: "Roboto";
+      shrift o'lchami: 36px;
+      shrift og'irligi: 700;
+      chiziq balandligi: 52px;
+      harflar oralig'i: 0em;
+      matnni tekislash: chapga;
+    }
+  }
+  @media faqat ekran va (maksimal kenglik: 700px) {
+    .form1 {
+      displey: moslashuvchan;
+      moslashuvchan yo'nalish: ustun;
+    }
+    .form2 {
+      displey: moslashuvchan;
+      moslashuvchan yo'nalish: ustun;
+      bo'shliq: 30px;
+    }
+    .form12 {
+      displey: moslashuvchan;
+      bo'shliq: 30px;
+      moslashuvchan yo'nalish: ustun;
+    }
+  }
+  @media faqat ekran va (maksimal kenglik: 640px) {
+    .section_item1 {
+      displey: moslashuvchan;
+      moslashuvchan yo'nalish: ustun;
+      asoslash-tarkib: bo'sh joy;
+      align-elementlar: markaz;
+      matnni tekislash: markaz;
+      asoslash-tarkib: markaz;
+      bo'shliq: 40px;
+    }
+    .p_ulugbek {
+      shrift oilasi: "Roboto";
+      shrift o'lchami: 30px;
+      shrift og'irligi: 700;
+      chiziq balandligi: 52px;
+      harflar oralig'i: 0em;
+      matnni tekislash: chapga;
+    }
+    .section_img {
+      kengligi: 90%;
+    }
+    .card_img {
+      kengligi: 90%;
+    }
+  }
+  @media faqat ekran va (maksimal kenglik: 530px) {
+    .p_ulugbek {
+      shrift oilasi: "Roboto";
+      shrift o'lchami: 26px;
+      shrift og'irligi: 800;
+      chiziq balandligi: 40px;
+      harflar oralig'i: 0em;
+      matnni tekislash: chapga;
+    }
+    .email {
+      to'ldirish: 20px 20px 20px 20px;
+      chegara: 1px qattiq #FFA3A3;
+    }
+  }
+  @media faqat ekran va (maksimal kenglik: 500px) {
+    .section_img {
+      kengligi: 110%;
+    }
+    .card_img {
+      kengligi: 110%;
+    }
+  }
+  @media faqat ekran va (maksimal kenglik: 430px) {
+    .p_ulugbek {
+      shrift oilasi: "Roboto";
+      shrift o'lchami: 26px;
+      shrift og'irligi: 800;
+      chiziq balandligi: 30px;
+      harflar oralig'i: 0em;
+      matnni tekislash: chapga;
+    }
+    .ulugbek_item1 {
+      displey: moslashuvchan;
+      moslashuvchan yo'nalish: ustun;
+      align-elementlar: markaz;
+      matnni tekislash: markaz;
+      asoslash-tarkib: markaz;
+    }
+    .ulugbek_div3 {
+      displey: moslashuvchan;
+      moslashuvchan yo'nalish: ustun;
+    }
+    .p_ulugbek {
+      matnni tekislash: markaz;
+    }
+  }
+  @media faqat ekran va (maksimal kenglik: 370px) {
+    .tel {
+      to'ldirish: 20px 50px 20px 20px;
+      shrift oilasi: "Roboto";
+      shrift o'lchami: 14px;
+      shrift og'irligi: 400;
+      chiziq balandligi: 16px;
+      harflar oralig'i: 0em;
+      matnni tekislash: chapga;
+      chegara: 1px qattiq #FFA3A3;
+    }
+    .tel1 {
+      to'ldirish: 20px 50px 20px 20px;
+      shrift oilasi: "Roboto";
+      shrift o'lchami: 14px;
+      shrift og'irligi: 400;
+      chiziq balandligi: 16px;
+      harflar oralig'i: 0em;
+      matnni tekislash: chapga;
+      chegara: 1px qattiq #FFA3A3;
+    }
+  }
+  @media faqat ekran va (maksimal kenglik: 340px) {
+    .p_item_section {
+      font-family: "hind";
+      shrift o'lchami: 40px;
+      shrift og'irligi: 600;
+      chiziq balandligi: 61px;
+      harflar oralig'i: 0em;
+      matnni tekislash: chapga;
+      rang: #150101;
+      matnni tekislash: markaz;
+    }
+    .p_ulugbek {
+      shrift oilasi: "Roboto";
+      shrift o'lchami: 26px;
+      shrift og'irligi: 800;
+      chiziq balandligi: 30px;
+      harflar oralig'i: 0em;
+      matnni tekislash: markaz;
+    }
+    .ulugbek_div {
+      chap chekka: 14px;
+    }
+    .ulugbek_div_img2 {
+      chap chekka: -14px;
+    }
+  }
+  .footer {
+    displey: moslashuvchan;
+    moslashuvchan yo'nalish: ustun;
+    bo'shliq: 10px;
+    to'ldirish: 70px;
+  }
+  
+  .footer {
+    fon: #0A0808;
+  }
+  
+  .footer1 {
+    displey: moslashuvchan;
+    asoslash-tarkib: bo'sh joy;
+    bo'shliq: 40px;
+  }
+  
+  .ji {
+    displey: moslashuvchan;
+    bo'shliq: 120px;
+  }
+  
+  .p_footer {
+    kengligi: 80%;
+    rang: oq;
+    shrift oilasi: "Roboto";
+    shrift o'lchami: 12px;
+    shrift og'irligi: 400;
+    chiziq balandligi: 17px;
+    harflar oralig'i: 0,01em;
+    matnni tekislash: chapga;
+    shaffoflik: 0,6;
+    to'ldirish-pastki: 25px;
+    kursor: ko'rsatgich;
+  }
+  
+  .ul_li_footer {
+    displey: moslashuvchan;
+    moslashuvchan yo'nalish: ustun;
+    bo'shliq: 10px;
+    rang: oq;
+    ro'yxat uslubi: yo'q;
+  }
+  
+  ul > li > a {
+    matn bezatish: yo'q;
+    rang: oq;
+  }
+  
+  .p_footer_p {
+    rang: oq;
+    shrift oilasi: "Roboto";
+    shrift o'lchami: 12px;
+    shrift og'irligi: 500;
+    chiziq balandligi: 14px;
+    harflar oralig'i: 0em;
+    matnni tekislash: chapga;
+    to'ldirish-pastki: 10px;
+    kursor: ko'rsatgich;
+  }
+  
+  .intagram {
+    displey: moslashuvchan;
+    bo'shliq: 10px;
+  }
+  
+  .class_footer {
+    shrift oilasi: "Roboto";
+    shrift o'lchami: 12px;
+    shrift og'irligi: 400;
+    chiziq balandligi: 14px;
+    harflar oralig'i: 0em;
+    matnni tekislash: chapga;
+    shaffoflik: 0,6;
+  }
+  
+  .footer_p_p_t {
+    shrift oilasi: "Roboto";
+    shrift o'lchami: 16px;
+    shrift og'irligi: 500;
+    chiziq balandligi: 19px;
+    harflar oralig'i: 0em;
+    matnni tekislash: chapga;
+    rang: oq;
+    kursor: ko'rsatgich;
+    to'ldirish pastki: 15px;
+  }
+  
+  .footer4 {
+    chekka o'ng: 150px;
+  }
